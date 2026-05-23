@@ -795,7 +795,15 @@ document.addEventListener('DOMContentLoaded', () => {
   </script>
 
   <!-- inlined SKILL.md so download works without a server file -->
-  <script type="text/markdown" id="skill-md-data"><!--
+  <script type="text/markdown" id="skill-md-data">---
+name: nobs
+description: Strip the AI fluff. Activates only when the user prefixes a message with /nobs. Cuts preamble, hedging, restating the question, and performative caveats. Answer first, always. Use this skill whenever the user types /nobs, wants direct/blunt/no-fluff answers, complains about AI being verbose, asks for "no bullshit" mode, or wants a concise factual reply without the usual conversational padding.
+license: MIT
+version: 1.0
+author: susmic
+---
+
+<!--
 MIT License
 
 Copyright (c) 2026 susmic
@@ -882,6 +890,7 @@ Example:
 User: "What is the sum of the interior angles of a triangle in Euclidean geometry?"
 Agent: 
 "[🟢 100% Confirmed]
-180 degrees"</script>
+180 degrees"
+</script>
 </body>
 </html>
